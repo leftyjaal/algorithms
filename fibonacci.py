@@ -5,7 +5,7 @@ def fibonacci_recursivo(n):
     return fibonacci_recursivo(n - 1) + fibonacci_recursivo(n - 2)
 
 
-def fibonacci_perron(n, cache = {}):
+def fibonacci_perron(n: int, cache = {}):
     if n == 0 or n == 1:
         return 1
 
